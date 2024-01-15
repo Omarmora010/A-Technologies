@@ -1,0 +1,103 @@
+@import "../table/table.component.scss";
+.edit-bar{
+  width: 100%;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  direction: rtl;
+
+}
+.right-bar{
+  display: flex;
+  align-items: center;
+}
+.edit-text{
+color: #1C1C28;
+font-size: 16px;
+font-family: $heading-font;
+font-weight: 500;
+line-height: 28px;
+word-wrap: break-word;
+margin-right: 7px;
+}
+.edit-icon{
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgba(231, 234, 237, 1);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.edit-icon:hover{
+  background-color: $secondary-color;
+
+}
+.edit-button-text{
+color: #1C1C28;
+font-size: 14px;
+font-family: $heading-font;
+font-weight: 400;
+line-height: 28px;
+word-wrap: break-word
+}
+.edit-button{
+  width:78px;
+  height:32px;
+  background-color: rgba(249, 249, 249, 1);
+  border: 1px solid rgba(233, 234, 234, 1);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.edit-button:hover{
+background-color: $secondary-color;
+
+}
+@media screen and (max-width:600px) {
+
+  .edit-button{
+    width:120px;
+    height:34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .edit-button-text{
+    font-size: 14px;
+
+    }
+    .edit-text{
+      color: #1C1C28;
+      font-size: 14px;
+      font-family: $heading-font;
+      font-weight: 500;
+      line-height: 28px;
+      word-wrap: break-word;
+      margin-right: 7px;
+      }
+
+}
+
