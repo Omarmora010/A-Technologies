@@ -1,2 +1,2 @@
 # app
-https://omarmora010.github.io/A-Technologies/
+https://omarmora010.github.io/app/
